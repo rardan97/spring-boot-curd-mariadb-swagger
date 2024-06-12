@@ -115,10 +115,10 @@ This is API endpoint as a update data product existing by id
 ### Request body
 ```json
 {
-    "produkName": "ayam goreng",
-    "produkHarga": 1000,
-    "produkKategori": "makanan",
-    "produkStok": 5
+  "produkName": "Ayam Bakar",
+  "produkHarga": 20000,
+  "produkKategori": "makanan",
+  "produkStok": 50
 }
 ```
 
