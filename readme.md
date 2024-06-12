@@ -38,7 +38,7 @@ http://localhost:8080/swagger-ui/index.html#/
 This is API endpoint as a create new data product
 
 ### Request URL
-```http
+```
 - POST http://localhost:8080/api/v1/produk/add
 ```
 
@@ -75,12 +75,12 @@ This is API endpoint as a create new data product
 This is API endpoint as a get List all data product
 
 ### Request URL
-```http
+```
 - GET http://localhost:8080/api/v1/produk/index
 ```
 
 ### Request
-```json
+```
 No parameters
 ```
 
@@ -108,7 +108,7 @@ No parameters
 This is API endpoint as a update data product existing by id
 
 ### Request URL
-```http
+```
 - PUT http://localhost:8080/api/v1/produk/update/1
 ```
 
@@ -144,11 +144,12 @@ This is API endpoint as a update data product existing by id
 ## Delete Data Product
 This is API endpoint as a delete data product by id
 ### Request URL
-```http
-- PUT http://localhost:8080/api/v1/produk/delete/1
 ```
+- DELETE http://localhost:8080/api/v1/produk/delete/1
+```
+
 ### Request
-```json
+```
 No parameters
 ```
 
