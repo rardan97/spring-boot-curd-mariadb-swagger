@@ -19,6 +19,18 @@ git clone https://github.com/rardan97/spring-boot-curd-mariadb-swagger.git
 
 3. open project with intellij IDEA then edit config database in application.properties change username and password match your config db
 
+   #### location : spring-boot-curd-api/src/main/resources/application.properties
+
+```
+spring.jpa.hibernate.ddl-auto=update
+spring.datasource.url=jdbc:mysql://localhost:3306/your_database
+spring.datasource.username=your_username
+spring.datasource.password=your_password
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+#spring.jpa.show-sql: true
+```
+
+
 4. open terminal input command 
 ```
 mvn clean install 
