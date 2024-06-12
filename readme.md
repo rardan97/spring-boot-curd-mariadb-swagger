@@ -17,7 +17,7 @@ git clone https://github.com/rardan97/spring-boot-curd-mariadb-swagger.git
 
 2. add new database mysql with name "db_curd_api"
 
-3. open project with intellij IDEA then edit config database in application.properties change username and password match your config db
+3. open project with intellij IDEA then edit config database in application.properties change database name, username and password match your config db
 
    #### location : spring-boot-curd-api/src/main/resources/application.properties
 
