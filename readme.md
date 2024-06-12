@@ -1,4 +1,4 @@
-## Spring boot - Simple CURD API With MariaDB & Swagger
+## Spring boot - Simple CRUD API With MariaDB & Swagger
 
 ## System Requirements
 - Java openjdk : ( version "11.0.18")
@@ -12,7 +12,7 @@
 
 1. clone project Spring boot - Simple CURD API With Swagger
 ```
-git clone https://github.com/rname97/curd-api.git
+git clone https://github.com/rardan97/spring-boot-curd-mariadb-swagger.git
 ```
 
 2. add new database mysql with name "db_curd_api"
@@ -165,14 +165,3 @@ No parameters
 }
 ```
 
-## Status Codes
-
-Gophish returns the following status codes in its API:
-
-| Status Code | Description |
-|------| :--- |
-| 200 | `OK` |
-| 201 | `CREATED` |
-| 400 | `BAD REQUEST` |
-| 404 | `NOT FOUND` |
-| 500 | `INTERNAL SERVER ERROR` |
