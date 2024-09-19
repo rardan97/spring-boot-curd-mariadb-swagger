@@ -19,7 +19,7 @@ git clone https://github.com/rardan97/spring-boot-curd-mariadb-swagger.git
 
 3. open project with intellij IDEA then edit config database in application.properties change database name, username and password match your config db
 
-   #### location : spring-boot-curd-api/src/main/resources/application.properties
+   #### location : spring-boot-curd-mariadb-swagger/src/main/resources/application.properties
 
 ```
 spring.jpa.hibernate.ddl-auto=update
